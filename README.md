@@ -317,8 +317,8 @@ Full Indonesian language support with cultural context
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sblrm&layout=compact&theme=gradient&hide_border=true)](https://github.com/sblrm)
 
 [![GitHub](https://img.shields.io/badge/GitHub-sblrm-181717?style=for-the-badge&logo=github)](https://github.com/sblrm)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.ramaniya@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sabilillah-ramaniya)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.widodo@binus.ac.id)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sblrm)
 
 ### 💼 **Seeking Internship Opportunities**
 *Full-Stack Development | AI Integration | Travel Technology*
