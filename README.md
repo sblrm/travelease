@@ -1,200 +1,98 @@
-# 🌟 TravelEase - AI Travel Management System# TravelEase - AI Travel Management System
+# 🌟 TravelEase - AI Travel Management System
 
+<div align="center">
 
+**An intelligent travel management platform combining Laravel 11 with AI-powered assistance**
 
-<div align="center">Sistem manajemen perjalanan berbasis AI dengan integrasi Laravel dan Python.
-
-  
-
-![TravelEase Banner](Maps/public/images/Screenshot1.png)## Struktur Proyek
-
-
-
-**An intelligent travel management platform combining Laravel 11 with AI-powered assistance**- **`Maps/`**: Aplikasi web Laravel 11 (frontend dan API)
-
-- **`TravelEase/`**: Backend Python dengan Flask API dan integrasi Gemini AI
+![TravelEase Banner](Maps/public/images/Screenshot1.png)
 
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net/)
-
-[![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)## Setup Development
-
+[![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Google AI](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 
-[![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)### Prerequisites
-
-[![Google AI](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)- PHP 8.1+
-
-- Python 3.11+
-
-</div>- Composer
-
-- XAMPP atau web server lainnya
+</div>
 
 ---
 
-### Installation
-
-## 👨‍💻 About Developer
-
-#### 1. Laravel Setup (Maps/)
-
-<div align="center">```bash
-
-cd Maps
-
-**Sabilillah Ramaniya Widodo** ([@sblrm](https://github.com/sblrm))composer install
-
-cp .env.example .env
-
-*Aspiring Full-Stack Developer | AI Enthusiast | Travel Technology Innovator*php artisan key:generate
-
-php artisan migrate
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sblrm&show_icons=true&theme=gradient&hide_border=true&count_private=true)](https://github.com/sblrm)php artisan serve
-
-```
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sblrm&layout=compact&theme=gradient&hide_border=true)](https://github.com/sblrm)
-
-#### 2. Python Setup (TravelEase/)
-
-</div>```bash
-
-cd TravelEase
-
----# Install dependencies via Jupyter notebook atau manual:
-
-pip install transformers torch PyPDF2 pandas datasets google-generativeai requests flask python-dotenv
-
 ## 🎯 Project Overview
 
-# Setup environment
+TravelEase adalah sistem manajemen perjalanan berbasis AI yang menggabungkan teknologi web modern dengan kecerdasan buatan untuk memberikan pengalaman travel planning yang seamless dan personal.
 
-TravelEase adalah sistem manajemen perjalanan berbasis AI yang menggabungkan teknologi web modern dengan kecerdasan buatan untuk memberikan pengalaman travel planning yang seamless dan personal.cp .env.example .env
+### 🏗️ Architecture Highlights
 
-# Edit .env dan tambahkan GEMINI_API_KEY Anda
+<div align="center">
 
-### 🏗️ Architecture Highlights```
-
-
-
-<div align="center">#### 3. Set Environment Variables
-
-**PowerShell (temporary):**
-
-```mermaid```powershell
-
-graph TB$env:GEMINI_API_KEY = "your-api-key-here"
-
-    A[🌐 Laravel Frontend] --> B[📡 HTTP API]```
-
+```mermaid
+graph TB
+    A[🌐 Laravel Frontend] --> B[📡 HTTP API]
     B --> C[🐍 Flask Backend]
+    C --> D[🤖 Google Gemini AI]
+    C --> E[📊 Travel Dataset]
+    A --> F[🗺️ Maps Integration]
+    A --> G[💾 SQLite Database]
+```
 
-    C --> D[🤖 Google Gemini AI]**Atau buat file `.env` di TravelEase/:**
+</div>
 
-    C --> E[📊 Travel Dataset]```
+### 📁 Project Structure
 
-    A --> F[🗺️ Maps Integration]GEMINI_API_KEY=your-api-key-here
+- **`Maps/`**: Aplikasi web Laravel 11 (frontend dan API)
+- **`TravelEase/`**: Backend Python dengan Flask API dan integrasi Gemini AI
 
-    A --> G[💾 SQLite Database]GEMINI_MODEL=gemini-2.5-pro
+---
 
-``````
+## ✨ Key Features
 
-
-
-</div>### Running the Application
-
-
-
----1. **Start Laravel (terminal 1):**
-
-```bash
-
-## ✨ Key Featurescd Maps
-
-php artisan serve
-
-<table>```
-
+<table>
 <tr>
-
-<td width="50%">2. **Start Python Flask API (terminal 2):**
-
-```bash
-
-### 🎫 **Travel Management**cd TravelEase
-
-- Interactive travel package bookingpython TravelAPI.py
-
-- Route planning & navigation```
-
-- Cost estimation tools
-
-- Travel history tracking3. **Access:** http://127.0.0.1:8000
-
-
-
-### 🤖 **AI-Powered Assistant**## Features
-
-- Natural language travel queries
-
-- Personalized recommendations- 🗺️ Travel location management
-
-- Indonesian language support- 🤖 AI-powered travel assistant (Gemini)
-
-- Context-aware responses- 📱 Responsive mobile design
-
-- 🎫 Travel package booking
-
-</td>- 📍 Location-based services
-
 <td width="50%">
 
-## API Integration
+### 🎫 **Travel Management**
+- Interactive travel package booking
+- Route planning & navigation
+- Cost estimation tools
+- Travel history tracking
+
+### 🤖 **AI-Powered Assistant**
+- Natural language travel queries
+- Personalized recommendations
+- Indonesian language support
+- Context-aware responses
+
+</td>
+<td width="50%">
 
 ![Travel Features](Maps/public/images/Screenshot2.png)
 
-Laravel berkomunikasi dengan Flask server via HTTP:
+### 📱 **Additional Features**
+- 🗺️ Travel location management
+- 🤖 AI-powered travel assistant (Gemini)
+- 📱 Responsive mobile design
+- 🎫 Travel package booking
+- 📍 Location-based services
 
-</td>- **Flask Endpoint**: `http://127.0.0.1:5000/chat`
+</td>
+</tr>
+</table>
 
-</tr>- **Method**: POST
+---
 
-</table>- **Data**: JSON dengan field `query`
+## 🏞️ Featured Destinations
 
+<div align="center">
 
-
----## Security Notes
-
-
-
-## 🏞️ Featured Destinations- **JANGAN** commit file `.env` ke Git
-
-- API keys disimpan di environment variables
-
-<div align="center">- Database menggunakan SQLite untuk development
-
-
-
-| 🏛️ Yogyakarta | 🏝️ Bali | 🌋 Lombok | 🐉 Labuan Bajo |## Tech Stack
-
+| 🏛️ Yogyakarta | 🏝️ Bali | 🌋 Lombok | 🐉 Labuan Bajo |
 |:---:|:---:|:---:|:---:|
+| ![Yogyakarta](Maps/public/images/Keraton%20Yogyakarta.jpg) | ![Bali](Maps/public/images/Pura%20Uluwatu.jpg) | ![Lombok](Maps/public/images/Gunung%20Rinjani.jpg) | ![Labuan Bajo](Maps/public/images/Pulau%20Komodo.jpg) |
+| Historic Cultural Hub | Tropical Paradise | Adventure Island | Dragon Island Gateway |
 
-| ![Yogyakarta](Maps/public/images/Keraton%20Yogyakarta.jpg) | ![Bali](Maps/public/images/Pura%20Uluwatu.jpg) | ![Lombok](Maps/public/images/Gunung%20Rinjani.jpg) | ![Labuan Bajo](Maps/public/images/Pulau%20Komodo.jpg) |- **Frontend**: Laravel 11, Blade Templates, Vanilla JS
+</div>
 
-| Historic Cultural Hub | Tropical Paradise | Adventure Island | Dragon Island Gateway |- **Backend**: Python Flask, Google Gemini AI
+### 🗺️ Premium Travel Packages
 
-- **Database**: SQLite
-
-</div>- **Maps**: Google Maps, Folium
-
-
-
-### 🗺️ Premium Travel Packages## License
-
-
-
-<div align="center">Private project - All rights reserved.
+<div align="center">
 
 ![Travel Packages](Maps/public/images/Screenshot3.png)
 
@@ -205,6 +103,8 @@ Laravel berkomunikasi dengan Flask server via HTTP:
 - ✈️ Jakarta ↔ Bali (4D3N) - *from Rp 1.8M*  
 - 🏔️ Bali ↔ Lombok (3D2N) - *from Rp 1.2M*
 - 🌊 Lombok ↔ Labuan Bajo (5D4N) - *from Rp 2.5M*
+
+</div>
 
 ---
 
@@ -235,52 +135,72 @@ Laravel berkomunikasi dengan Flask server via HTTP:
 ## 🚀 Quick Start
 
 ### Prerequisites
-```bash
-PHP 8.2+ | Python 3.11+ | Composer | XAMPP
-```
+- PHP 8.2+
+- Python 3.11+
+- Composer
+- XAMPP atau web server lainnya
 
 ### Installation
 
 <details>
 <summary><b>🔧 Setup Instructions</b></summary>
 
-#### 1. Clone Repository
-```bash
-git clone https://github.com/sblrm/TravelEase.git
-cd TravelEase
-```
-
-#### 2. Laravel Setup
+#### 1. Laravel Setup (Maps/)
 ```bash
 cd Maps
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+php artisan serve
 ```
 
-#### 3. Python AI Backend
+#### 2. Python Setup (TravelEase/)
 ```bash
-cd ../TravelEase
-pip install google-generativeai flask python-dotenv
+cd TravelEase
+# Install dependencies via Jupyter notebook atau manual:
+pip install transformers torch PyPDF2 pandas datasets google-generativeai requests flask python-dotenv
 ```
 
-#### 4. Environment Configuration
+#### 3. Environment Configuration
+**PowerShell (temporary):**
+```powershell
+$env:GEMINI_API_KEY = "your-api-key-here"
+```
+
+**Atau buat file `.env` di TravelEase/:**
+```
+GEMINI_API_KEY=your-api-key-here
+GEMINI_MODEL=gemini-2.5-pro
+```
+
+#### 4. Running the Application
+1. **Start Laravel (terminal 1):**
 ```bash
-# Set your Gemini API Key
-$env:GEMINI_API_KEY = "your-gemini-api-key"
+cd Maps
+php artisan serve
 ```
 
-#### 5. Run Services
+2. **Start Python Flask API (terminal 2):**
 ```bash
-# Terminal 1: Laravel
-cd Maps; php artisan serve
-
-# Terminal 2: Flask API
-cd TravelEase; python TravelAPI.py
+cd TravelEase
+python TravelAPI.py
 ```
+
+3. **Access:** http://127.0.0.1:8000
 
 </details>
+
+### API Integration
+Laravel berkomunikasi dengan Flask server via HTTP:
+- **Flask Endpoint**: `http://127.0.0.1:5000/chat`
+- **Method**: POST
+- **Data**: JSON dengan field `query`
+
+### Security Notes
+- **JANGAN** commit file `.env` ke Git
+- API keys disimpan di environment variables
+- Database menggunakan SQLite untuk development
 
 ---
 
@@ -316,7 +236,7 @@ class ChatGenerator:
         )
 ```
 
-**Features:**
+**AI Features:**
 - 🧠 Context-aware responses using travel dataset
 - 🇮🇩 Native Indonesian language processing
 - 💬 Natural conversation flow
@@ -324,26 +244,7 @@ class ChatGenerator:
 
 ---
 
-## 📊 Project Statistics
-
-<div align="center">
-
-![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=sblrm&theme=react-dark&hide_border=true)
-
-[![Commit Activity](https://github-readme-streak-stats.vercel.app?user=sblrm&theme=dark&hide_border=true)](https://github.com/sblrm)
-
-</div>
-
-**Project Metrics:**
-- 🏗️ **Architecture**: Dual-stack (Laravel + Python)
-- 🌐 **Routes**: 12+ web routes with Indonesian naming
-- 🎨 **Views**: 15+ Blade templates with inline styling
-- 🤖 **AI Integration**: Google Gemini 2.5 Pro
-- 📦 **Travel Packages**: 5+ destination combinations
-
----
-
-## 🎯 Why This Project?
+##  Why This Project?
 
 <div align="center">
 
@@ -383,6 +284,13 @@ Full Indonesian language support with cultural context
 </tr>
 </table>
 
+### 📊 Project Metrics
+- 🏗️ **Architecture**: Dual-stack (Laravel + Python)
+- 🌐 **Routes**: 12+ web routes with Indonesian naming
+- 🎨 **Views**: 15+ Blade templates with inline styling
+- 🤖 **AI Integration**: Google Gemini 2.5 Pro
+- 📦 **Travel Packages**: 5+ destination combinations
+
 ---
 
 ## 🚀 Future Roadmap
@@ -396,11 +304,17 @@ Full Indonesian language support with cultural context
 
 ---
 
-## 🤝 Connect & Collaborate
+## 👨‍💻 About Developer
 
 <div align="center">
 
-**Interested in collaborating or have questions about this project?**
+**Sabilillah Ramaniya Widodo** ([@sblrm](https://github.com/sblrm))
+
+*Aspiring Full-Stack Developer | AI Enthusiast | Travel Technology Innovator*
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sblrm&show_icons=true&theme=gradient&hide_border=true&count_private=true)](https://github.com/sblrm)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sblrm&layout=compact&theme=gradient&hide_border=true)](https://github.com/sblrm)
 
 [![GitHub](https://img.shields.io/badge/GitHub-sblrm-181717?style=for-the-badge&logo=github)](https://github.com/sblrm)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.ramaniya@example.com)
@@ -408,12 +322,6 @@ Full Indonesian language support with cultural context
 
 ### 💼 **Seeking Internship Opportunities**
 *Full-Stack Development | AI Integration | Travel Technology*
-
-</div>
-
----
-
-<div align="center">
 
 ### 🌟 **Star this repository if you found it interesting!**
 
@@ -427,9 +335,6 @@ Full Indonesian language support with cultural context
 
 ---
 
-<details>
-<summary><b>📄 License</b></summary>
+## 📄 License
 
 This project is created for educational and portfolio purposes. All rights reserved by Sabilillah Ramaniya Widodo.
-
-</details>
