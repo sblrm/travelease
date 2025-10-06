@@ -1,0 +1,9 @@
+# Instructions to run TravelEase API
+# 1. Copy .env.example to .env and fill in your GEMINI_API_KEY
+# 2. Run these commands:
+
+cd S:\xampp\htdocs\Laravel\TravelEase
+# Set your API key (temporary for session):
+# $env:GEMINI_API_KEY = "your_api_key_here"
+# Or use .env file (recommended)
+python TravelAPI.py
