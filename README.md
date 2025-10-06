@@ -274,10 +274,10 @@ $env:GEMINI_API_KEY = "your-gemini-api-key"
 #### 5. Run Services
 ```bash
 # Terminal 1: Laravel
-cd Maps && php artisan serve
+cd Maps; php artisan serve
 
 # Terminal 2: Flask API
-cd TravelEase && python TravelAPI.py
+cd TravelEase; python TravelAPI.py
 ```
 
 </details>
