@@ -337,4 +337,4 @@ Full Indonesian language support with cultural context
 
 ## 📄 License
 
-This project is created for educational and portfolio purposes. All rights reserved by Sabilillah Ramaniya Widodo.
+All rights reserved by Sabilillah Ramaniya Widodo.
