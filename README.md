@@ -314,7 +314,7 @@ Full Indonesian language support with cultural context
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sblrm&show_icons=true&theme=gradient&hide_border=true&count_private=true)](https://github.com/sblrm)
 
-
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sblrm&layout=compact&theme=gradient&hide_border=true)](https://github.com/sblrm)
 
 [![GitHub](https://img.shields.io/badge/GitHub-sblrm-181717?style=for-the-badge&logo=github)](https://github.com/sblrm)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.widodo@binus.ac.id)
